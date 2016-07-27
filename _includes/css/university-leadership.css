@@ -1,0 +1,427 @@
+/*pshan 7.21: temporary define variable here. Needs to move varaible decalration later*/
+/*style can combine with other page later*/
+.intro-container,
+.cabinet-container {
+  padding-top: 100px;
+}
+.intro-container .container .section-header,
+.cabinet-container .container .section-header {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.intro-container .container .sub-header,
+.cabinet-container .container .sub-header {
+  font-family: 'Lato', sans-serif;
+  font-size: 17px;
+  text-align: center;
+}
+.intro-container {
+  background-color: #f5f5f5;
+}
+.intro-container .section-header {
+  color: #004a8d;
+  letter-spacing: 4px;
+}
+.intro-container .sub-header {
+  color: #767676;
+}
+.intro-container .intro-content {
+  padding-top: 80px;
+  font-size: 17px;
+  color: #767676;
+  font-family: 'Lato', sans-serif;
+  padding-bottom: 150px;
+}
+@media (min-width: 992px) {
+  .intro-container .intro-content {
+    column-count: 2;
+    column-gap: 35px;
+    -webkit-column-gap: 35px;
+    /* Chrome, Safari, Opera */
+    -moz-column-gap: 35px;
+  }
+}
+.cabinet-container {
+  background-color: #1a1f2c;
+}
+.cabinet-container .section-header {
+  color: #a4adc5;
+  letter-spacing: 4px;
+}
+.cabinet-container .sub-header {
+  color: #8b96b2;
+}
+.cabinet-container .person-row {
+  padding-top: 80px;
+}
+.cabinet-container .person-row .person {
+  height: 550px;
+  margin-bottom: 30px;
+  background-color: white;
+}
+.cabinet-container .person-row .person .person-img {
+  width: 100%;
+  max-height: 70%;
+}
+.cabinet-container .person-row .person .person-intro {
+  padding-left: 20px;
+  background-color: white;
+  width: 100%;
+  height: 30%;
+}
+.cabinet-container .person-row .person .person-intro .person-name {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  color: #004a8d;
+  font-size: 22px;
+  padding-top: 30px;
+}
+.cabinet-container .person-row .person .person-intro .person-title {
+  font-family: 'Lato', sans-serif;
+  color: #767676;
+  font-size: 17px;
+  padding-top: 20px;
+}
+.dean-container .section-header {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 26px;
+  color: #004a8d;
+  text-align: center;
+  letter-spacing: 4px;
+  padding-top: 100px;
+  padding-bottom: 55px;
+}
+.dean-container .sub-header {
+  font-family: 'Lato', sans-serif;
+  color: #767676;
+  font-size: 17px;
+  padding-bottom: 150px;
+}
+.dean-container .flag-row {
+  padding-bottom: 240px;
+}
+@media (max-width: 1024px) {
+  .dean-container .flag-row {
+    padding-bottom: 100px;
+  }
+}
+@media (max-width: 480px) {
+  .dean-container .flag-row {
+    padding-bottom: 0px;
+  }
+}
+.dean-container .flag-row .flag {
+  height: 180px;
+  /*
+            #goizueta-flag{
+                background-image: url('../images/university-leadership/flags/goizueta.png'); 
+                @media(max-width: 480px){
+                    background-image: url('../images/university-leadership/flags/goizueta-mobile.png')
+                    }
+            }
+            #oxford-flag{
+                background-image: url('../images/university-leadership/flags/oxford.png')
+            }
+            #rollins-flag{
+
+            }
+            #arts-flag{
+
+            }
+            #medicine-flag{
+
+            }
+            #candler-flag{
+
+            }
+            #nursing-flag{
+
+            }
+            #law-flag{
+
+            }
+            #laney-flag{
+
+            }
+            */
+}
+@media (max-width: 768px) {
+  .dean-container .flag-row .flag {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 480px) {
+  .dean-container .flag-row .flag {
+    margin-bottom: 50px;
+  }
+}
+.dean-container .flag-row .flag .flag-border {
+  border: 3px solid rgba(183, 183, 183, 0.49);
+}
+.dean-container .flag-row .flag .flag-border .flag-text {
+  padding: 20px 0 20px 25px;
+  display: table-cell;
+  text-align: left;
+  vertical-align: middle;
+}
+.dean-container .flag-row .flag .flag-border .flag-text .flag-name {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #004a8d;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+@media (max-width: 480px) {
+  .dean-container .flag-row .flag .flag-border .flag-text .flag-name {
+    font-size: 16px;
+  }
+}
+.dean-container .flag-row .flag .flag-border .flag-text .flag-school {
+  font-family: 'Lato', sans-serif;
+  font-size: 17px;
+  color: #767676;
+}
+@media (max-width: 480px) {
+  .dean-container .flag-row .flag .flag-border .flag-text .flag-school {
+    font-size: 15px;
+  }
+}
+.dean-container .flag-row .flag .flag-item {
+  margin-left: 25px;
+  background-size: cover;
+  position: relative;
+  background-position: top;
+  height: 180px;
+}
+@media (max-width: 1024px) {
+  .dean-container .flag-row .flag .flag-item {
+    margin-left: 10px;
+  }
+}
+@media (max-width: 480px) {
+  .dean-container .flag-row .flag .flag-item {
+    margin-left: 0;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+  }
+}
+@media (max-width: 992px) {
+  .dean-container .flag-row .flag .flag-item {
+    height: 210px;
+  }
+}
+.admin-container {
+  background-color: #1a1f2c;
+}
+.admin-container .section-header {
+  font-family: 'Raleway', sans-serif;
+  color: #a4adc5;
+  font-size: 26px;
+  text-align: center;
+  padding-top: 100px;
+  letter-spacing: 4px;
+}
+.admin-container .admin-content {
+  font-family: 'Lato', sans-serif;
+  padding-bottom: 90px;
+  color: #8b96b2;
+  font-size: 17px;
+  padding-top: 25px;
+}
+.admin-container .admin-button {
+  padding-bottom: 100px;
+  text-align: center;
+}
+.admin-container .admin-button .btn {
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px;
+  color: white;
+  background-color: transparent;
+  border-radius: 0;
+  border-color: white;
+  padding: 20px 40px;
+}
+.advisory-container {
+  background-color: #f5f5f5;
+}
+.advisory-container .section-header {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 26px;
+  color: #004a8d;
+  text-align: center;
+  letter-spacing: 4px;
+  padding-top: 150px;
+  /*Need to add triangle later*/
+  padding-bottom: 55px;
+}
+.advisory-container .sub-header {
+  font-family: 'Lato', sans-serif;
+  color: #767676;
+  font-size: 17px;
+  padding-bottom: 65px;
+}
+.advisory-container .card-row {
+  padding-bottom: 110px;
+}
+.advisory-container .card-row .card {
+  margin: 35px auto;
+  padding: 25px 20px;
+  border: 3px solid rgba(183, 183, 183, 0.49);
+}
+.advisory-container .card-row .card .card-name {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #004a8d;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+.advisory-container .card-row .card .card-school {
+  font-family: 'Lato', sans-serif;
+  font-size: 17px;
+  color: #767676;
+}
+.president-container {
+  background-color: #1a1f2c;
+}
+.president-container .section-header {
+  font-family: 'Raleway', sans-serif;
+  color: #a4adc5;
+  font-size: 26px;
+  text-align: center;
+  padding-top: 100px;
+  letter-spacing: 4px;
+}
+.president-container .sub-header {
+  color: #8b96b2;
+  padding-top: 25px;
+}
+.president-container .content-container {
+  padding-top: 75px;
+  padding-bottom: 125px;
+}
+.president-container .content-container .timeline-button {
+  text-align: center;
+}
+.president-container .content-container .timeline-button:last-of-type {
+  background-image: url('../images/university-leadership/arrow.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50% 50%;
+  min-height: 220px;
+  padding-top: 2em;
+  margin-top: -2em;
+}
+.president-container .content-container .timeline-button .btn-president {
+  border: none;
+  padding: 15px 40px;
+  font-size: 17px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: white;
+  border-radius: 0;
+}
+.president-container .content-container .timeline-button #today {
+  background-color: #d39815;
+}
+.president-container .content-container .timeline-button #old {
+  background-color: #28527d;
+}
+.president-container .content-container .timeline-button #all {
+  background-color: transparent;
+  border: 2px solid white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px;
+}
+.president-container .content-container .president-row .left-president {
+  text-align: right;
+  border-right: 3px solid #222733;
+  padding-right: 25px;
+}
+.president-container .content-container .president-row .left-president:first-of-type {
+  padding-top: 90px;
+}
+.president-container .content-container .president-row .left-president:last-of-type {
+  padding-bottom: 90px;
+}
+@media (max-width: 992px) {
+  .president-container .content-container .president-row .left-president {
+    text-align: center;
+    border-right: none;
+    padding: 3em 0;
+  }
+}
+.president-container .content-container .president-row .right-president {
+  text-align: left;
+  border-left: 3px solid #222733;
+  margin-left: -3px;
+  padding-left: 25px;
+}
+.president-container .content-container .president-row .right-president:last-of-type {
+  padding-bottom: 90px;
+}
+@media (max-width: 992px) {
+  .president-container .content-container .president-row .right-president {
+    text-align: center;
+    border-left: none;
+    padding: 3em 0 !important;
+  }
+}
+.president-container .content-container .president-row .president-card {
+  font-size: 17px;
+}
+.president-container .content-container .president-row .president-card .president-intro .president-time {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: #1da1f2;
+  padding-bottom: 20px;
+}
+.president-container .content-container .president-row .president-card .president-intro .president-name {
+  font-size: 30px;
+  font-family: 'Libre Baskerville', serif;
+  color: white;
+  font-style: italic;
+  padding-bottom: 20px;
+}
+.president-container .content-container .president-row .president-card .president-intro .president-bio {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #a4adc5;
+  padding-bottom: 20px;
+}
+.president-container .content-container .president-row .president-card .president-intro .president-link a {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: white;
+}
+.president-container .content-container .president-row .president-card .president-intro .president-link a:after {
+  content: "\003e";
+  padding-left: .5em;
+}
+.president-container .content-container .president-row .president-card .president-photo {
+  padding-bottom: 1em;
+}
+.president-container .content-container .president-row .president-card .president-photo img {
+  max-width: 100%;
+}
+.president-container .content-container .president-row .president-card .round-on-border {
+  z-index: 999999;
+  position: relative;
+}
+@media (max-width: 992px) {
+  .president-container .content-container .president-row .president-card .round-on-border {
+    display: none !important;
+  }
+}
+.president-container .content-container .predient-row-1 {
+  padding-top: 90px;
+}

@@ -1,0 +1,198 @@
+/*pshan 7.26: temporary define variable here. Needs to move varaible decalration later*/
+@light-grey: #b2b2b2;
+@light-white-background: #f8f8f8;
+@deep-grey-text: #777777;
+@basic-size: 17px;
+@content-gap: 80px;
+@blue-text: #8b96b2;
+@person-height: 550px;
+
+@gold: #e7a512;
+@blue: #004a8d;
+@angle-blue-border: #0767be;
+@angle-gray: #cacaca;
+@background-offwhite: #f5f5f5;
+@background-navy: #1a1f2c;
+@twitter-blue: #5eaade;
+@news-header-blue: #1da1f2;
+@news-header-gold: #d2b000;
+@header-navy: rgba(26,31,44,.8);
+@gray-text: #767676;
+@dark-gray-text: #3a3a3a;
+@light-blue-text: #a4adc5;
+@gold-text: #e7a512;
+
+
+@font-lato: 'Lato', sans-serif;
+@font-mont: 'Montserrat', sans-serif;
+@font-rale: 'Raleway', sans-serif;
+@font-libre:'Libre Baskerville', serif;
+
+.touch-container,
+.staff-container{
+    background-color: @background-offwhite;
+    .section-header{
+        font-family: @font-rale;
+        font-weight: 300;
+        font-size: 26px;
+        color: @blue;
+        text-align: center;
+        letter-spacing: 4px;
+        padding-top: 100px;
+        padding-bottom: 55px;
+    }
+    .sub-header{
+        font-family: @font-lato;
+        color: @gray-text;
+        font-size: 17px;
+    }
+}
+
+.touch-container{
+    .section-header{
+        text-transform: uppercase;
+    }
+    .sub-header{
+        padding-bottom: 150px;
+    }
+    .touch-content{
+        padding-bottom: 110px;
+        #send-message{
+            #message-title{
+                font-family: @font-rale;
+                font-weight: 300;
+                color: @blue;
+                text-align: center;
+                padding-bottom: 50px;
+                font-size: 20px;
+            }
+            #contact-form-validation{
+                display: none;
+            }
+            #send{
+                text-align: center;
+                #send-btn{
+                    color: @blue;
+                    font-size: 15px;
+                    font-family: @font-rale;
+                    font-weight: 600;
+                    padding: 20px 70px;
+                    border: 2px solid @blue;
+                    border-radius: 0;
+                    background-color: transparent;
+                }
+            }
+            .message-row{
+                @media (min-width:992px){
+                    margin-bottom:20px;
+                }
+                .form-control:focus{
+                    border-color: #d2d2d2 !important;
+                    -webkit-box-shadow: 0 0 45px -17px rgba(133,133,133,0.7);
+                    -moz-box-shadow: 0 0 45px -17px rgba(133,133,133,0.7);
+                    box-shadow: 0 0 45px -17px rgba(133,133,133,0.7);
+                }
+                input,
+                textarea{
+                    border-radius: 0;
+                    font-family: @font-lato;
+                    color: @light-grey;
+                    font-size: 15px;
+                    background-color: @light-white-background;
+                    margin-bottom: 0;
+                    @media(max-width: 992px){
+                        margin-bottom: 1em;
+                    }
+                }
+                input{
+                    min-height: 50px;
+                }
+                textarea{
+                    min-height: 200px;
+                }
+            }
+        }
+        #contact-info{
+            background-color: white;
+            -webkit-box-shadow: 0 0 45px -17px rgba(133,133,133,0.7);
+            -moz-box-shadow: 0 0 45px -17px rgba(133,133,133,0.7);
+            box-shadow: 0 0 45px -17px rgba(133,133,133,0.7);
+            text-transform: uppercase;
+            padding: 40px 50px;
+            @media(max-width: 992px){
+                margin-top: 200px;
+            }
+            #contact-title{
+                font-family: @font-rale;
+                font-weight: 300;
+                color: @blue;
+                font-size:20px;
+                text-align: center;
+                padding-bottom: 50px;
+            }
+            .contact-row{
+                text-align: left;
+                font-family: @font-rale;
+                color: @deep-grey-text;
+                font-weight: 700;
+                padding-bottom: 40px;
+                &:last-of-type{
+                    padding-bottom: 0;
+                }
+                .contact-item{
+                    font-size: 16px;
+                }
+                .contact-detail{
+                    font-size: 14px;
+                    .num{
+                        font-family: @font-mont;
+                        font-weight: 300;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*Person Style is the same as University Leadership one. Should be extracted later*/
+.staff-container{
+    .section-header{
+        text-transform: uppercase;
+    }
+    .sub-header{
+        padding-bottom: 80px;
+    }
+    .person-row{
+        padding-top: @content-gap;
+        padding-bottom: 200px;
+        .person{
+            height: @person-height;
+            background-color: white;
+            margin-bottom: 30px;
+            box-shadow: 0 0 45px -17px rgba(133,133,133,0.7);
+            .person-img{
+                width: 100%;
+                max-height: 70%;
+            }
+            .person-intro{
+                padding-left: 20px;
+                background-color: white;
+                width: 100%;
+                height: 30%;
+                .person-name{
+                    font-family: @font-rale;
+                    font-weight: 600;
+                    color: @blue;
+                    font-size: 22px;
+                    padding-top: 30px;
+                }
+                .person-title{
+                    font-family: @font-lato;
+                    color: @gray-text;
+                    font-size: 17px;
+                    padding-top: 20px;
+                }
+            }
+        }
+    }
+}

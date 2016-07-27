@@ -1,0 +1,53 @@
+@gold: #e7a512;
+@blue: #004a8d;
+@angle-blue-border: #0767be;
+@angle-gray: #cacaca;
+@background-offwhite: #f5f5f5;
+@background-navy: #1a1f2c;
+@twitter-blue: #5eaade;
+@news-header-blue: #1da1f2;
+@news-header-gold: #d2b000;
+@header-navy: rgba(26,31,44,.8);
+@gray-text: #767676;
+@dark-gray-text: #3a3a3a;
+@light-blue-text: #a4adc5;
+@gold-text: #e7a512;
+
+
+@font-lato: 'Lato', sans-serif;
+@font-mont: 'Montserrat', sans-serif;
+@font-rale: 'Raleway', sans-serif;
+@font-libre:'Libre Baskerville', serif;
+
+
+
+
+
+
+
+.president-navbar {
+    background-color: transparent;
+    border: 0px;
+    margin-bottom: 0;
+    margin-top: 25px;
+    z-index: 9;
+    .navbar-nav {
+    	font-family: @font-lato;
+    	font-size: 15px;
+    	text-transform: uppercase;
+    	li {
+    		margin-left: 55px;
+            &:hover, &:active {
+                border-top: 5px solid @gold;
+            }
+    		a {
+    			color: #fff;
+                padding: 15px 0;
+                &:hover, &:active {
+                    color: #fff;
+                    padding: 10px 0;
+                }
+    		}
+	    }
+	}
+}

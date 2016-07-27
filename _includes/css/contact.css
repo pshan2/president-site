@@ -1,0 +1,168 @@
+/*pshan 7.26: temporary define variable here. Needs to move varaible decalration later*/
+.touch-container,
+.staff-container {
+  background-color: #f5f5f5;
+}
+.touch-container .section-header,
+.staff-container .section-header {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 26px;
+  color: #004a8d;
+  text-align: center;
+  letter-spacing: 4px;
+  padding-top: 100px;
+  padding-bottom: 55px;
+}
+.touch-container .sub-header,
+.staff-container .sub-header {
+  font-family: 'Lato', sans-serif;
+  color: #767676;
+  font-size: 17px;
+}
+.touch-container .section-header {
+  text-transform: uppercase;
+}
+.touch-container .sub-header {
+  padding-bottom: 150px;
+}
+.touch-container .touch-content {
+  padding-bottom: 110px;
+}
+.touch-container .touch-content #send-message #message-title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  color: #004a8d;
+  text-align: center;
+  padding-bottom: 50px;
+  font-size: 20px;
+}
+.touch-container .touch-content #send-message #contact-form-validation {
+  display: none;
+}
+.touch-container .touch-content #send-message #send {
+  text-align: center;
+}
+.touch-container .touch-content #send-message #send #send-btn {
+  color: #004a8d;
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  padding: 20px 70px;
+  border: 2px solid #004a8d;
+  border-radius: 0;
+  background-color: transparent;
+}
+@media (min-width: 992px) {
+  .touch-container .touch-content #send-message .message-row {
+    margin-bottom: 20px;
+  }
+}
+.touch-container .touch-content #send-message .message-row .form-control:focus {
+  border-color: #d2d2d2 !important;
+  -webkit-box-shadow: 0 0 45px -17px rgba(133, 133, 133, 0.7);
+  -moz-box-shadow: 0 0 45px -17px rgba(133, 133, 133, 0.7);
+  box-shadow: 0 0 45px -17px rgba(133, 133, 133, 0.7);
+}
+.touch-container .touch-content #send-message .message-row input,
+.touch-container .touch-content #send-message .message-row textarea {
+  border-radius: 0;
+  font-family: 'Lato', sans-serif;
+  color: #b2b2b2;
+  font-size: 15px;
+  background-color: #f8f8f8;
+  margin-bottom: 0;
+}
+@media (max-width: 992px) {
+  .touch-container .touch-content #send-message .message-row input,
+  .touch-container .touch-content #send-message .message-row textarea {
+    margin-bottom: 1em;
+  }
+}
+.touch-container .touch-content #send-message .message-row input {
+  min-height: 50px;
+}
+.touch-container .touch-content #send-message .message-row textarea {
+  min-height: 200px;
+}
+.touch-container .touch-content #contact-info {
+  background-color: white;
+  -webkit-box-shadow: 0 0 45px -17px rgba(133, 133, 133, 0.7);
+  -moz-box-shadow: 0 0 45px -17px rgba(133, 133, 133, 0.7);
+  box-shadow: 0 0 45px -17px rgba(133, 133, 133, 0.7);
+  text-transform: uppercase;
+  padding: 40px 50px;
+}
+@media (max-width: 992px) {
+  .touch-container .touch-content #contact-info {
+    margin-top: 200px;
+  }
+}
+.touch-container .touch-content #contact-info #contact-title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  color: #004a8d;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.touch-container .touch-content #contact-info .contact-row {
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+  color: #777777;
+  font-weight: 700;
+  padding-bottom: 40px;
+}
+.touch-container .touch-content #contact-info .contact-row:last-of-type {
+  padding-bottom: 0;
+}
+.touch-container .touch-content #contact-info .contact-row .contact-item {
+  font-size: 16px;
+}
+.touch-container .touch-content #contact-info .contact-row .contact-detail {
+  font-size: 14px;
+}
+.touch-container .touch-content #contact-info .contact-row .contact-detail .num {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+/*Person Style is the same as University Leadership one. Should be extracted later*/
+.staff-container .section-header {
+  text-transform: uppercase;
+}
+.staff-container .sub-header {
+  padding-bottom: 80px;
+}
+.staff-container .person-row {
+  padding-top: 80px;
+  padding-bottom: 200px;
+}
+.staff-container .person-row .person {
+  height: 550px;
+  background-color: white;
+  margin-bottom: 30px;
+  box-shadow: 0 0 45px -17px rgba(133, 133, 133, 0.7);
+}
+.staff-container .person-row .person .person-img {
+  width: 100%;
+  max-height: 70%;
+}
+.staff-container .person-row .person .person-intro {
+  padding-left: 20px;
+  background-color: white;
+  width: 100%;
+  height: 30%;
+}
+.staff-container .person-row .person .person-intro .person-name {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  color: #004a8d;
+  font-size: 22px;
+  padding-top: 30px;
+}
+.staff-container .person-row .person .person-intro .person-title {
+  font-family: 'Lato', sans-serif;
+  color: #767676;
+  font-size: 17px;
+  padding-top: 20px;
+}

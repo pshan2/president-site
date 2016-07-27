@@ -1,0 +1,182 @@
+@gold: #e7a512;
+@blue: #004a8d;
+@angle-blue-border: #0767be;
+@angle-gray: #cacaca;
+@background-offwhite: #f5f5f5;
+@background-navy: #1a1f2c;
+@twitter-blue: #5eaade;
+@news-header-blue: #1da1f2;
+@news-header-gold: #d2b000;
+@header-navy: rgba(26,31,44,.8);
+@gray-text: #767676;
+@dark-gray-text: #3a3a3a;
+@light-blue-text: #a4adc5;
+@gold-text: #e7a512;
+
+
+@font-lato: 'Lato', sans-serif;
+@font-mont: 'Montserrat', sans-serif;
+@font-rale: 'Raleway', sans-serif;
+@font-libre:'Libre Baskerville', serif;
+
+
+
+
+
+
+
+#header-gradient {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+
+	height: 122px;
+	width: 100%;
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: 4;
+}
+.hero-container {
+	position: relative;
+    top: -90px;
+	.no-padding {
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+	.header-bkgd-img {
+		background-color: #999;
+	    background-size: cover;
+	    background-image: none;
+	    background-attachment: fixed;
+	    background-position: center center;
+	    max-height: 1200px;
+	    overflow: hidden;
+	    z-index: 1;
+	    position: relative;
+	    top: 0;
+		.background-image {
+			display: block;
+		    width: 100%;
+		    height: auto;
+		}
+
+	}
+	.background-seal {
+		position: absolute;
+		top: 74px;
+		left: -3%;
+		max-height: 1180px;
+		height: 90%;
+		width: auto;
+	}
+
+	
+}
+.homepage-carousel-container {
+		position: absolute;
+		bottom: 0;
+		height: 80%;
+		z-index: 9;
+		.homepage-header-carousel {
+		
+			#carousel-homepage {
+				.carousel-inner {
+					.item-cutout {
+						.cutout-text {
+							color: rgba(255,255,255,.6);
+							h1 {
+								font-family: @font-libre;
+								font-size: 35px;
+								font-style: italic;
+							}
+							p {
+								font-family: @font-lato;
+								font-size: 15px;
+							}
+
+						}
+						.cutout {
+							padding-right: 0;
+						}
+					}
+				}
+			}
+		}
+	}
+
+
+.homepage-news-container {
+
+	.news-content {
+		h2 {
+			font-family: @font-rale;
+			font-weight: 300;
+			color: @blue;
+			text-transform: uppercase;
+			letter-spacing: 4px;
+			font-size: 26px;
+			text-align: center;
+			margin-bottom: 40px;
+		}
+		p {
+			color: @gray-text;
+			font-family: @font-lato;
+			font-size: 17px;
+			text-align: center;
+		}
+	}
+	a {
+		text-decoration: none;
+		color: #fff;
+		&:hover {
+			color: @gold;
+		}
+		.news-item {
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+			margin-top: 60px;
+			position: relative;
+			height: 238px;
+			.news-content-container {
+				padding: 20px 20px;
+				position: absolute;
+				bottom: 0px;
+				.news-tag {
+					margin-top: 50px;
+					.label {
+						border-radius: 0;
+						font-family: @font-rale;
+						font-weight: 300;
+						font-size: 10px;
+						padding: 7px;
+					}
+					.label-primary {
+						background-color: @gold;
+
+					}
+					.label-default {
+						background-color: @twitter-blue;
+					}
+				}
+				.news-header {
+					font-family: @font-rale;
+					font-size: 16px;
+					font-weight: 800;
+					margin-top: 10px;
+				}
+				.news-content {
+					font-family: @font-lato;
+					font-size: 14px;
+				}
+			}
+			
+		}
+	}
+	
+}	
+

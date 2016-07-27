@@ -1,0 +1,28 @@
+.president-navbar {
+  background-color: transparent;
+  border: 0px;
+  margin-bottom: 0;
+  margin-top: 25px;
+  z-index: 9;
+}
+.president-navbar .navbar-nav {
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.president-navbar .navbar-nav li {
+  margin-left: 55px;
+}
+.president-navbar .navbar-nav li:hover,
+.president-navbar .navbar-nav li:active {
+  border-top: 5px solid #e7a512;
+}
+.president-navbar .navbar-nav li a {
+  color: #fff;
+  padding: 15px 0;
+}
+.president-navbar .navbar-nav li a:hover,
+.president-navbar .navbar-nav li a:active {
+  color: #fff;
+  padding: 10px 0;
+}
